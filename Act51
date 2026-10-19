@@ -1,0 +1,394 @@
+<div id="habilidadesyconocimientos">
+                <div class="habilidades">
+                    <ul>
+                        <li>Liderazgo</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Creatividad</li>
+                        <li>Investigación</li>
+                    </ul>
+                </div>
+
+                <div class="habilidades">
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>Indesign</li>
+                        <li>After Effects</li>
+                    </ul>
+                </div>
+
+                <div class="habilidades">
+                    <ul>
+                        <li>Diseño UX</li>
+                        <li>Diseño de interfaces</li>
+                        <li>HTML / CSS</li>
+                        <li>Programación Básica</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </article>
+
+        <div id="descarga">
+            <p>Puedes descargar mi currículum en formato PDF aquí.</p>
+        </div>
+
+    </section>
+
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <p>Aquí encontrarás muestras de mi trabajo</p>
+
+        <article id="trabajos">
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+        </article>
+    </section>
+
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <p>batmanciudadgotica</p>
+    </footer>
+
+    
+    
+    
+</body>
+
+</html>
+body {
+    margin:0;
+    padding:0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+#encabezado {
+    display: flex;
+    width:100%;
+}
+
+#logotipo {
+        width: 280px;
+        height: 50px;
+}
+
+#menu {
+    margin-top: 20px;
+    width: 600px;
+    height: 50px;
+}
+
+#menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/------------------------------- Sección portada --------------/
+#portada {
+    width: 100%;
+}
+
+#imgportada {
+    margin:0 auto; /propiedad para centrar la imagen/
+    height: 400px;
+    width: 960px;
+}
+/------------------------------- Sección acerca de mi --------------/
+
+#acercademi {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#textoacercademi{
+    text-align: center;
+    width: 100%;
+}
+
+#perfil {
+    display: flex;
+    width: 960px;
+}
+
+#imgperfil {
+    width: 280px;
+    height: 300px;
+}
+
+#presentacion {
+    text-align: center;
+    width: 600px;
+}
+
+#habilidadesyconocimientos {
+    display: flex;
+    width: 600px;
+}
+
+#habilidadesyconocimientos ul {
+    list-style: none;
+}
+
+.habilidades {
+    width: 200px;
+}
+
+#descarga {
+    text-align: center;
+    width: 100%;
+}
+
+/------------------------------- Portafolio --------------/
+
+#portafolio {
+    text-align: center;
+}
+
+#trabajos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/------------------------------- Contacto --------------/
+
+#contacto {
+    text-align: center;
+    width: 100%;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Práctica 1. Portafolio Básico</title>
+</head>
+
+<body>
+    <header id="encabezado">
+        <figure id="logotipo">
+            <img src="img/Logo.png" alt="Este es el logotipo de Batman">
+        </figure>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="#">Acerca de mí</a></li>
+                <li><a href="#">Portafolio</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="portada">
+        <figure id="imgportada">
+            <img src="img/Cover.png" alt="Portada principal Batman vs Depredador">
+        </figure>
+    </section>
+
+    <section id="acercademi">
+        <div id="textoacercademi">
+            <h1>Acerca de mí</h1>
+            <p>En esta sección encontrarás información acerca de mi, lo que me gusta hacer y para qué soy bueno.</p>     
+        </div>
+
+        <article id="perfil">
+            <figure id="imgperfil">
+                <img src="img/Profile.png" alt="Foto de perfil de Batman">
+            </figure>
+
+            <div id="presentación">
+                <h2>Presentación</h2>
+                <p>Hola. me llamo Batman, en mis ratos libres me gusta combatir el crimen, y me encantaría poder colaborar contigo en tus proyectos</p>
+                <h2>Mis habilidades y conocimientos</h2> 
+            </div>
+
+            <div id="habilidadesyconocimientos">
+                <div class="habilidades">
+                    <ul>
+                        <li>Liderazgo</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Creatividad</li>
+                        <li>Investigación</li>
+                    </ul>
+                </div>
+
+                <div class="habilidades">
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>Indesign</li>
+                        <li>After Effects</li>
+                    </ul>
+                </div>
+
+                <div class="habilidades">
+                    <ul>
+                        <li>Diseño UX</li>
+                        <li>Diseño de interfaces</li>
+                        <li>HTML / CSS</li>
+                        <li>Programación Básica</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </article>
+
+        <div id="descarga">
+            <p>Puedes descargar mi currículum en formato PDF aquí.</p>
+        </div>
+
+    </section>
+
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <p>Aquí encontrarás muestras de mi trabajo</p>
+
+        <article id="trabajos">
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="img/Work.png" alt="Título del proyecto"/>
+                </figure>
+                <h3>Título del proyecto</h3>
+                <p>Breve descripción</p>
+            </div>
+        </article>
+    </section>
+
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <p>batmanciudadgotica</p>
+    </footer>
+
+    
+    
+    
+</body>
+
+</html>
